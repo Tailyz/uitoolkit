@@ -17,7 +17,16 @@ public class MainMenuUI : MonoBehaviour
 
     private void OnEnable()
     {
-        Button continueButton = m_UIDocument.rootVisualElement.Q<Button>("continue-button"); 
+        var root = m_UIDocument.rootVisualElement;
+        Button continueButton = root.Q<Button>("continue-button"); 
         continueButton.SetEnabled(false);
+
+        Button exitButton = root.Q<Button>("exit-button"); 
+        exitButton.clicked += QuitGame;
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit();
     }
 }
