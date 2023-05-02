@@ -1,0 +1,41 @@
+.panel {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(24, 31, 23, 0.62);
+}
+
+.title {
+    background-image: url('project://database/Assets/soilmates_white.png?fileID=2800000&guid=86c6f9fec0c077d4ebcbea13205b95f5&type=3#soilmates_white');
+    width: 431px;
+    height: 309px;
+    align-items: stretch;
+    -unity-text-align: upper-left;
+}
+
+.panel-buttons {
+    flex-grow: 1;
+    align-items: center;
+}
+
+.button {
+    font-size: 20px;
+    -unity-font-style: bold;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.button:enabled {
+    color: rgb(239, 227, 192);
+}
+
+.button:hover {
+    color: rgb(217, 162, 116);
+}
+
+.button:active {
+    color: rgb(243, 182, 130);
+}
+
+.button:disabled {
+    color: rgb(183, 158, 123);
+}

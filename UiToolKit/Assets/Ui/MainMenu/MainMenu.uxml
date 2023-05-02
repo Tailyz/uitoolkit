@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Ui/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=14a5d46eb7953cf479818f4b8c3d9d77&amp;type=3#MainMenu" />
+    <ui:VisualElement name="panel" class="panel">
+        <ui:VisualElement name="title" class="title" />
+        <ui:VisualElement name="panel-buttons" class="panel-buttons">
+            <ui:Button text="Continue" display-tooltip-when-elided="true" name="continue-button" class="button" />
+            <ui:Button text="New Game" display-tooltip-when-elided="true" name="new-game-button" class="button" style="font-size: 20px; -unity-font-style: bold; width: 50%; margin-top: 10%;" />
+            <ui:Button text="Settings" display-tooltip-when-elided="true" name="settings-button" class="button" style="font-size: 20px; -unity-font-style: bold; width: 50%; margin-top: 10%;" />
+            <ui:Button text="Credits" display-tooltip-when-elided="true" name="credits-button" class="button" style="font-size: 20px; -unity-font-style: bold; width: 50%; margin-top: 10%;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit-button" class="button" style="font-size: 20px; -unity-font-style: bold; width: 50%; margin-top: 20%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
