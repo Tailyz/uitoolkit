@@ -123,6 +123,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &601202248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 601202250}
+  - component: {fileID: 601202249}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &601202249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601202248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 983b3cc2caa9c6349bc409e9b6c0bfad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GameData: {fileID: 11400000, guid: f96731bc1831bad49b0d3c5d5ebd238d, type: 2}
+  m_SaveDataChannel: {fileID: 11400000, guid: 7cd7a00d19141ed4f98f151ac1fd7b84, type: 2}
+  m_MainMenuScene:
+    m_AssetGUID: b6d829a32b9ea9949a98e9ccbb927ac3
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  m_LoadSceneChannel: {fileID: 11400000, guid: 37778e74b24bca8458f05c744faf974f, type: 2}
+  m_ForestScene:
+    m_AssetGUID: 83e8773b85d8b524c996f608db94639f
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+--- !u!4 &601202250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601202248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.1020365, y: 2.2581482, z: -0.4785509}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2096963447
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,6 +210,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_LoadSceneChannel: {fileID: 11400000, guid: 37778e74b24bca8458f05c744faf974f, type: 2}
+  m_GameData: {fileID: 11400000, guid: f96731bc1831bad49b0d3c5d5ebd238d, type: 2}
+  m_SaveDataChannel: {fileID: 11400000, guid: 7cd7a00d19141ed4f98f151ac1fd7b84, type: 2}
+  m_LoadDataChannel: {fileID: 11400000, guid: 1375730eb2e51d74b86d9592058c2511, type: 2}
 --- !u!4 &2096963449
 Transform:
   m_ObjectHideFlags: 0

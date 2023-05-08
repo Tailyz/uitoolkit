@@ -33,6 +33,22 @@ MonoBehaviour:
     m_Address: Assets/Scenes/Tutorial.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: f96731bc1831bad49b0d3c5d5ebd238d
+    m_Address: Assets/ScriptableObjects/GameData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cd7a00d19141ed4f98f151ac1fd7b84
+    m_Address: Assets/ScriptableObjects/Channels/SaveDataChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1375730eb2e51d74b86d9592058c2511
+    m_Address: Assets/ScriptableObjects/Channels/LoadDataChannel.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83e8773b85d8b524c996f608db94639f
+    m_Address: Assets/Scenes/Forest.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c593e7aed20e2834e866e7417b6646ab, type: 2}
   m_SchemaSet:
