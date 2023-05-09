@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using SaveSystem.Scripts.Runtime;
 using SaveSystem.Scripts.Runtime.Channels;
 using SceneManagement;
+using UI.Settings;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,6 +11,8 @@ using UnityEngine.UIElements;
 public class MainMenuUI : MonoBehaviour
 {
     private VisualElement m_ConfirmationModal;
+
+    private SettingsElement m_Settings;
     private UIDocument m_UIDocument;
     [SerializeField] private LoadSceneChannel m_LoadSceneChannel;
     [SerializeField] private SceneReference m_StartingLocation;
@@ -45,6 +48,13 @@ public class MainMenuUI : MonoBehaviour
 
         Button newGameButton = root.Q<Button>("new-game-button"); 
         newGameButton.clicked += StartNewGame;
+
+        Button settingsButton = root.Q<Button>("settings-button");
+        settingsButton.clicked += OpenSettings;
+        m_Settings = root.Q<SettingsElement>();
+        
+        Button closeSettingsButton = m_Settings.Q<Button>("close-button");
+        closeSettingsButton.clicked += CloseSettings;
     }
 
         private void Cancel()
@@ -66,5 +76,15 @@ public class MainMenuUI : MonoBehaviour
     private void QuitGame()
     {
         Application.Quit();
+    }
+
+        private void CloseSettings()
+    {
+        m_Settings.style.display = DisplayStyle.None;
+    }
+
+    private void OpenSettings()
+    {
+        m_Settings.style.display = DisplayStyle.Flex;
     }
 }
