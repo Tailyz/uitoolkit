@@ -1,4 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="ConfirmationModal" src="project://database/Assets/Ui/ConfirmationModal/ConfirmationModal.uxml?fileID=9197481963319205126&amp;guid=bc367a927f073ea44aeda7fa20bee246&amp;type=3#ConfirmationModal" />
     <Style src="project://database/Assets/Ui/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=14a5d46eb7953cf479818f4b8c3d9d77&amp;type=3#MainMenu" />
     <ui:VisualElement name="panel" class="panel">
         <ui:VisualElement name="title" class="title" />
@@ -10,4 +11,5 @@
             <ui:Button text="Exit" display-tooltip-when-elided="true" name="Exit-button" class="button" style="font-size: 20px; -unity-font-style: bold; width: 50%; margin-top: 20%;" />
         </ui:VisualElement>
     </ui:VisualElement>
+    <ui:Instance template="ConfirmationModal" name="confirmation-modal" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
 </ui:UXML>
