@@ -1,2 +1,3 @@
 # uitoolkit
-ui
+This is my UI toolkit project
+
